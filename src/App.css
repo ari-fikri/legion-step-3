@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app-description {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.counter-card {
+  padding: 2em;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+  .counter-card {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .app-description {
+    color: #555;
+  }
+}
